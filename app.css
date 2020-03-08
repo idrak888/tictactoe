@@ -1,0 +1,33 @@
+.container {
+    padding: 30px;
+    max-width: 800px;
+    width: 100%;
+}
+.icon {
+    color: blue;
+}
+.row .col-xs {
+    display: flex;
+    flex: 1;
+    border: 1px solid lightgrey;
+    padding: 50px;
+    font-size: 32px;
+    text-align: center;
+}
+.row .col-xs:hover {
+    cursor: pointer;
+    border-color: blue;
+}
+.col-xs .x, .col-xs .o {
+    color: white;
+}
+.col-xs .o {
+    display: none;
+}
+.selected-x .x, .selected-o .o {
+    display: block;
+    color: blue;
+}
+.selected-o .x {
+    display: none;
+}
